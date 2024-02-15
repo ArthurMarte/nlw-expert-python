@@ -4,7 +4,8 @@ Projeto Desenvolvido durante a Nlw, evento promovida pela Rocketseat
 
 
 para instalar as bibliotecas usar
-##pip install -r requirements.txt
+
+# pip install -r requirements.txt
 
 Este projeto consiste em um gerador de código de barras
 
