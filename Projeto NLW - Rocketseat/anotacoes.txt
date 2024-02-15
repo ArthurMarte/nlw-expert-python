@@ -1,0 +1,19 @@
+pip3 install virtualenv -> instalar o ambiente virtual
+py -m venv .venv -> inicializar o ambiente virtual
+
+.venv\Scripts\activate -> ativar o ambiente virtual
+deactivate -> desativar o ambiente virtual
+
+
+.venv/Scripts/pip3 freeze > requirements.txt -> atualiza a lista de requirements.txt
+
+snake_case -> funções, variáveis e métodos
+PascalCase -> Classes
+
+
+
+Divisão das pastas:
+
+view: estão as partes reponsáveis por interagir com o http
+controllers: estão as partes responsáveis pela lógica do negócio
+drivers: estão as bibliotecas externas, de forma a limitar o uso das mesmas
